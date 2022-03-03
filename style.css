@@ -1,5 +1,125 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    /* font-family: "Roboto Mono", monospace; */
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 40px;
+    font-weight: 900;
+}
+h3 {
+    font-size: 35px;
+    font-weight: bolder;
+}
+h4 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: gray;
+}
+.border-left {
+    border-left: 2px solid red;
+    padding-left: 10px;
+}
+.btn {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    background-color: rgb(236, 40, 40);
+    border-radius: 5px;
+    font-weight: 500;
+}
+span {
+    color: orange;
+}
+/* Hero Section Start  */
+.container {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.hero-section {
+    display: flex;
+}
+.half-width {
+    width: 50%;
+}
+.first-half {
+    display: flex;
+    align-items: center;
+}
+.second-half {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second-half img {
+    width: 60%;
+}
+/* Hero Section End  */
+
+/* Mission Section Start  */
+#mission-section {
+    margin-top: 100px;
+}
+.mission {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+.card {
+    width: 30%;
+    border-radius: 10px;
+    padding: 15px;
+}
+.card1 {
+    background-color: #edf5f6;
+}
+.card2 {
+    background-color: #ffeeee;
+}
+.card3 {
+    background-color: #fff4d6;
+}
+.card img {
+    width: 50%;
+}
+/* Mission Section End  */
+
+/* Developer Section Start  */
+.thirty {
+    width: 30%;
+}
+.seventy {
+    width: 65%;
+}
+#developer-section {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* Developer Section End  */
+
+/* Footer Section Start */
+footer {
+    margin-top: 100px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+/* Footer Section End */
